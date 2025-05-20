@@ -1,118 +1,113 @@
-# Solar Challenge - Week 1
+# Solar Challenge – Week 1
 
-Welcome to **Week 1** of the Solar Challenge!  
-This repository contains my analysis of solar energy production across **Benin**, **Sierra Leone**, and **Togo**, with a focus on:
+Welcome to the first week of the Solar Challenge!  
+This repository showcases an analysis of solar energy generation in **Benin**, **Sierra Leone**, and **Togo**, focusing on:
 
 - Exploratory Data Analysis (EDA)
 - Data Cleaning
-- Dashboard Development
+- Dashboard Creation
 
 ---
 
-## 📦 Environment Setup
+## 📦 Getting Started
 
-### 1. Clone the Repository
+### 1. Clone This Repository
 
 ```bash
-git clone https://github.com/AbigailF1/solar-challenge-week1.git
+git clone https://github.com/yohhannees/solar-challenge-week1.git
 cd solar-challenge-week1
-
 ```
 
-### 2. Create & Activate a Virtual Environment
+### 2. Set Up Your Python Environment
 
-You can set up your Python environment using either `venv` or `conda`:
+You can use either `venv` or `conda` to manage your environment:
 
-#### 🔹 Using `venv` (built-in Python module)
+#### 🔹 With `venv` (Python built-in)
 
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
-#### 🔹 Using conda (if you have Anaconda/Miniconda)
+
+#### 🔹 With conda
 
 ```bash
 conda create -n solar-challenge python=3.10
 conda activate solar-challenge
 ```
 
-### 3. Install Required Packages
+### 3. Install Dependencies
 
-Once your virtual environment is activated, install all the required Python packages using:
+After activating your environment, install the required packages:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-This command will install all the dependencies listed in the requirements.txt file so you can run the notebooks and scripts without issues.
+This will ensure all necessary libraries are available for running notebooks and scripts.
 
 ---
 
-## 🗂️ Folder Structure
+## 🗂️ Project Structure
 
-Below is an overview of the project's folder structure:
+Here’s a summary of the main folders and files:
 
 ```bash
 solar-challenge-week1/
-├── .github/ # GitHub workflows (if any)
-├── data/ # Raw and cleaned datasets
-│ ├── benin_clean.csv
-│ ├── benin-malanville.csv
-│ ├── sierra_leone_clean.csv
-│ ├── sierra_leone-bumbuna.csv
-│ ├── togo_clean.csv
-│ └── togo-dapaong_qc.csv
+├── .github/                # GitHub workflow files
+├── data/                   # Raw and processed datasets
+│   ├── benin_clean.csv
+│   ├── benin-malanville.csv
+│   ├── sierra_leone_clean.csv
+│   ├── sierra_leone-bumbuna.csv
+│   ├── togo_clean.csv
+│   └── togo-dapaong_qc.csv
 │
-├── notebooks/ # Jupyter notebooks for EDA
-│ ├── benin_eda.ipynb
-│ ├── SierraLeone_eda.ipynb
-│ ├── togo_eda.ipynb
-│ └── README.md
+├── notebooks/              # Jupyter notebooks for analysis
+│   ├── benin_eda.ipynb
+│   ├── SierraLeone_eda.ipynb
+│   ├── togo_eda.ipynb
+│   └── README.md
 │
-├── scripts/ # Optional helper scripts
-├── src/ # Core utility code (if needed)
-├── tests/ # Placeholder for testing logic
-├── venv/ # Virtual environment (excluded by .gitignore)
+├── scripts/                # Helper scripts (optional)
+├── src/                    # Core utility code
+├── tests/                  # Test files
+├── venv/                   # Virtual environment (not tracked by git)
 │
 ├── .gitignore
 ├── requirements.txt
 └── README.md
-
 ```
 
 ---
 
-## 🚀 How to Use
+## 🚀 Usage Guide
 
-You can explore each country's solar energy data through the Jupyter notebooks located in the `notebooks/` folder:
+To analyze the solar data for each country, open the relevant Jupyter notebook in the `notebooks/` directory:
 
 - `benin_eda.ipynb`
 - `SierraLeone_eda.ipynb`
 - `togo_eda.ipynb`
 
-Each notebook includes:
+Each notebook covers:
 
-- ✅ Basic data inspection  
-- 🧹 Handling missing values  
-- 📈 Time series visualization  
-- 📊 Statistical summaries  
-- 📅 Daily and monthly trends  
+- ✅ Initial data exploration
+- 🧹 Missing value treatment
+- 📈 Time series plots
+- 📊 Statistical analysis
+- 📅 Daily and monthly trends
 
-Simply open a notebook with Jupyter
-
+Launch Jupyter and start exploring!
 
 ---
 
-## 🛠 Tech Stack
+## 🛠 Technology Stack
 
-This project uses the following tools and libraries:
+This project leverages:
 
-- **Python 3.10** – Programming language
-- **Jupyter Notebooks** – Interactive coding environment
-- **Pandas**, **NumPy** – Data manipulation and numerical operations
-- **Matplotlib**, **Seaborn** – Visualization and plotting libraries
+- **Python 3.10** – Main programming language
+- **Jupyter Notebooks** – Interactive analysis
+- **Pandas**, **NumPy** – Data processing and computation
+- **Matplotlib**, **Seaborn** – Data visualization
 
-These tools provide a strong foundation for conducting data analysis and creating insightful visuals.
-
-
-
+These tools enable efficient data analysis and clear visual insights.
